@@ -1,0 +1,24 @@
+.container {
+  font-size: 1.5rem;
+  justify-content: normal;
+  max-width: 98%;
+  border-style: solid;
+  border-radius: 0.3rem;
+  border-width: var(--border-width);
+  overflow: hidden;
+  height: 150px;
+}
+
+.hr {
+  border-color: var(--default-color);
+  width: 100%;
+  border-style: solid;
+}
+
+.image {
+  filter: brightness(50%);
+}
+
+.image:hover {
+  filter: brightness(100%);
+}
