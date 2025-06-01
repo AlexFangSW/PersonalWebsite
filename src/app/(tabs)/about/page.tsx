@@ -1,10 +1,23 @@
 import TabHeader from "@/components/TabHeader";
+import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <div className={`center-container content-container tab-content-container`}>
       <TabHeader title="ABOUT" image="/tree.png" />
-      <main className={`center-container inner-content`}>
+      <main className={`center-container inner-content ${styles.main}`}>
+        <div>
+          <p>
+            <strong>Email</strong>: alexfangsw@gmail.com
+          </p>
+          <p>
+            <strong>GitHub</strong>:{" "}
+            <Link href={"https://github.com/AlexFangSW"}>
+              <u>AlexFangSW</u>
+            </Link>
+          </p>
+        </div>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

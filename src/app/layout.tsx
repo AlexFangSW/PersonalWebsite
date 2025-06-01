@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Roboto } from "next/font/google";
-
-const roboto = Roboto({
-  weight: "400",
-  subsets: ["latin"],
-});
+import { sourceCodePro } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "AlexFangSW Personal Website",
@@ -19,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className}`}>{children}</body>
+      <body className={`${sourceCodePro.className}`}>{children}</body>
     </html>
   );
 }
