@@ -16,8 +16,12 @@ export default function Home() {
       </header>
       <div className={`center-container ${styles.cards_container}`}>
         <HomePageCards title="ABOUT" image="/tree.png" link="/about" />
-        <HomePageCards title="PROJECTS" image="/tree.png" link="/about" />
-        <HomePageCards title="EXPERIENCE" image="/tree.png" link="/about" />
+        <HomePageCards title="PROJECTS" image="/tree.png" link="/projects" />
+        <HomePageCards
+          title="EXPERIENCE"
+          image="/tree.png"
+          link="/experience"
+        />
       </div>
     </div>
   );

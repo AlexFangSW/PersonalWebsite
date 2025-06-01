@@ -26,7 +26,3 @@ a {
   text-decoration: none;
   color: var(--default-color);
 }
-
-body {
-  width: 100vw;
-}
