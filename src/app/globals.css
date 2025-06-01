@@ -13,6 +13,7 @@
   /* Layout */
   --content-width: 780px;
   --border-width: 2px;
+  --inner-max-width: 98%;
 }
 
 .center-container {
@@ -20,6 +21,34 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+/* For the root element for each page */
+.content-container {
+  max-width: var(--content-width);
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .content-container {
+    max-width: 100vw;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-inline: 1rem;
+  }
+}
+
+/* Used for root element in (tabs) route group */
+.tab-content-container {
+  row-gap: 1rem;
+}
+
+/* Used for things 1 layer deep inside of 'content-container' */
+.inner-content {
+  max-width: var(--inner-max-width);
 }
 
 a {

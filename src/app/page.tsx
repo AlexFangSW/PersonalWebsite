@@ -4,8 +4,8 @@ import { silkscreen, sourceCodePro } from "@/utils/fonts";
 
 export default function Home() {
   return (
-    <div className={`center-container ${styles.container}`}>
-      <header className={`${styles.header}`}>
+    <div className={`center-container content-container ${styles.container}`}>
+      <header className={`inner-content ${styles.header}`}>
         <h1 className={`${silkscreen.className}`}>
           Hi, I'm Hao-Yun Fang. Welcome to my personal website !
         </h1>
@@ -14,7 +14,9 @@ export default function Home() {
           ... etc). If you were wondering, SW means Study and Work.
         </p>
       </header>
-      <div className={`center-container ${styles.cards_container}`}>
+      <main
+        className={`center-container inner-content ${styles.cards_container}`}
+      >
         <HomePageCards title="ABOUT" image="/tree.png" link="/about" />
         <HomePageCards title="PROJECTS" image="/tree.png" link="/projects" />
         <HomePageCards
@@ -22,7 +24,7 @@ export default function Home() {
           image="/tree.png"
           link="/experience"
         />
-      </div>
+      </main>
     </div>
   );
 }

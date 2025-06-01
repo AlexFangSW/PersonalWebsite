@@ -19,8 +19,8 @@ export default function HomePageCards(params: Params) {
         className={styles.image}
         src={params.image}
         alt="Image"
-        width={CONTENT_WIDTH + 10}
-        height={CONTENT_WIDTH + 10}
+        width={CONTENT_WIDTH}
+        height={CONTENT_WIDTH}
       />
     </Link>
   );

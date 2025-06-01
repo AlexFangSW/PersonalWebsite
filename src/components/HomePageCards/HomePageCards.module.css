@@ -1,7 +1,8 @@
 .container {
   font-size: 1.5rem;
   justify-content: normal;
-  max-width: 98%;
+  max-width: 100%;
+  box-sizing: border-box;
   border-style: solid;
   border-radius: 0.3rem;
   border-width: var(--border-width);

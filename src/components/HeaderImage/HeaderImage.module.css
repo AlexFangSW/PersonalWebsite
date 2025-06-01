@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  border-style: solid;
+  border-radius: 0.3rem;
+  border-width: var(--border-width);
+  overflow: hidden;
+  height: 150px;
+  box-sizing: border-box;
+}

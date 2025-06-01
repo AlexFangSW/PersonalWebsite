@@ -3,5 +3,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // TODO: NAV BAR
   return <>{children}</>;
 }
