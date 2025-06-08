@@ -19,6 +19,7 @@ export default function HomePageCards(params: Params) {
           className={styles.image}
           src={params.image}
           alt="Image"
+          sizes="100vw"
           fill
           style={{ objectFit: "cover" }}
         />

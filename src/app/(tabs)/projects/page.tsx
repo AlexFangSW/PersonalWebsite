@@ -25,7 +25,7 @@ function DummyProject() {
 
 export default function Page() {
   return (
-    <div className={`center-container content-container tab-content-container`}>
+    <div className={`center-container tab-content-container`}>
       <TabHeader title="PROJECTS" image="/tree.png" />
       <main className={`${styles.content} center-container inner-content`}>
         <DummyProject />
