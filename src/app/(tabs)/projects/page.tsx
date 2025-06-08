@@ -1,11 +1,38 @@
+import ProjectCard from "@/components/ProjectCard";
 import TabHeader from "@/components/TabHeader";
+import styles from "./page.module.css";
+
+function DummyProject() {
+  return (
+    <ProjectCard
+      title="Dummy"
+      path="/projects"
+      summary="This is the summary for thei project, its just a dummy project card with no meaning..."
+      image="/tree.png"
+      tags={[
+        "dummy",
+        "dummy",
+        "dummy",
+        "dummy",
+        "dummy",
+        "dummy",
+        "dummy",
+        "dummy",
+      ]}
+    />
+  );
+}
 
 export default function Page() {
   return (
     <div className={`center-container content-container tab-content-container`}>
       <TabHeader title="PROJECTS" image="/tree.png" />
-      <main className={`center-container inner-content`}>
-        <p>PROJECTS</p>
+      <main className={`${styles.content} center-container inner-content`}>
+        <DummyProject />
+        <DummyProject />
+        <DummyProject />
+        <DummyProject />
+        <DummyProject />
       </main>
     </div>
   );
