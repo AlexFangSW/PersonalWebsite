@@ -25,6 +25,7 @@
   }
 }
 
+
 .title {
   font-size: 1.3rem;
   padding-inline: 0.5rem;
@@ -44,9 +45,14 @@
 }
 
 .img_container {
+  filter: brightness(50%);
   min-width: 100%;
   overflow: hidden;
   min-height: 100px;
   box-sizing: border-box;
   position: relative;
+}
+
+.container:hover>.img_container {
+  filter: brightness(100%)
 }

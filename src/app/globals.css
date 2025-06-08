@@ -48,7 +48,7 @@
 
 /* Used for things 1 layer deep inside of 'content-container' */
 .inner-content {
-  max-width: var(--inner-max-width);
+  width: var(--inner-max-width);
 }
 
 a {
