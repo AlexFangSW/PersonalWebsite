@@ -1,0 +1,20 @@
+.section_title {
+  flex-direction: row;
+  width: 100%;
+  column-gap: 0.25rem;
+}
+
+.hr {
+  width: 100%;
+  border-color: var(--default-color);
+}
+
+.title_gap {
+  row-gap: 0.5rem;
+}
+
+.icon_container {
+  flex-direction: row;
+  column-gap: 0.5rem;
+  flex-wrap: wrap;
+}
