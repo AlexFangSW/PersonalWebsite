@@ -2,6 +2,7 @@ import TabHeader from "@/components/TabHeader";
 import Link from "next/link";
 import styles from "./page.module.css";
 import Image from "next/image";
+import WordWithLine from "@/components/WordWithLine";
 
 function SectionTitle({ title }: { title: string }) {
   return (
@@ -24,15 +25,65 @@ function Awards() {
   );
 }
 
+function JobInfo({
+  time,
+  company,
+  title,
+  children,
+}: Readonly<{
+  time: string;
+  company: string;
+  title: string;
+  children: React.ReactNode;
+}>) {
+  return (
+    <div className={`center-container ${styles.job_info_container}`}>
+      <div
+        className={`center-container ${styles.job_info_title} ${styles.full_width}`}
+      >
+        <span>
+          <strong>{time}</strong>
+        </span>
+        <span>
+          Company: <strong>{company}</strong>
+        </span>
+        <span>
+          Title: <strong> {title}</strong>
+        </span>
+      </div>
+      <WordWithLine content="Job Content" />
+      <div>{children}</div>
+    </div>
+  );
+}
+
 function Jobs() {
   return (
     <div className={`center-container inner-content ${styles.title_gap}`}>
       <SectionTitle title="JOBS" />
-      <div>
-        <div>AAAAAAAAAAAAAAA</div>
-        <div>AAAAAAAAAAAAAAA</div>
-        <div>AAAAAAAAAAAAAAA</div>
-        <div>AAAAAAAAAAAAAAA</div>
+      <div className={`${styles.full_width} ${styles.job_info_list}`}>
+        <JobInfo time="9999-11-11~9999-11-11" company="GoBig" title="Hmmm...">
+          <ul>
+            <li>aaabbbccc</li>
+            <ul>
+              <li>aaabbbccc</li>
+              <li>aaabbbccc</li>
+            </ul>
+            <li>aaabbbccc</li>
+            <li>aaabbbccc</li>
+          </ul>
+        </JobInfo>
+        <JobInfo time="9999-11-11~9999-11-11" company="GoBig" title="Hmmm...">
+          <ul>
+            <li>aaabbbccc</li>
+            <ul>
+              <li>aaabbbccc</li>
+              <li>aaabbbccc</li>
+            </ul>
+            <li>aaabbbccc</li>
+            <li>aaabbbccc</li>
+          </ul>
+        </JobInfo>
       </div>
     </div>
   );

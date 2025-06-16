@@ -18,3 +18,45 @@
   column-gap: 0.5rem;
   flex-wrap: wrap;
 }
+
+.job_info_container {
+  border-width: 2px;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: var(--default-color);
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.job_info_title {
+  padding-bottom: 0.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .job_info_title {
+    padding-bottom: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+}
+
+.job_content {
+  display: block;
+  position: relative;
+}
+
+.job_info_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.full_width {
+  width: 100%
+}
