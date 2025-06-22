@@ -1,0 +1,15 @@
+.content {
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img_container {
+  position: relative;
+  width: 100%;
+}
+
+.warning {
+  color: var(--red);
+}

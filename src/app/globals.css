@@ -1,6 +1,7 @@
 :root {
   /* Colors  */
   --default-color: #FEFFCF;
+  --red: #D8647EFF;
   background-color: #1A1316;
   color: var(--default-color);
 

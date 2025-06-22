@@ -124,9 +124,7 @@ function Tools() {
 
 export default function Page() {
   return (
-    <div
-      className={`center-container tab-content-container ${styles.container}`}
-    >
+    <div className={`center-container tab-content-container`}>
       <TabHeader title="EXPERIENCE" image="/tree.png" />
       <main className={`center-container inner-content ${styles.title_gap}`}>
         <Tools />
