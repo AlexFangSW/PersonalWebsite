@@ -4,11 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
   images: {
     remotePatterns: [
-      new URL(
-        "https://raw.githubusercontent.com/AlexFangSW/Typephoon/refs/heads/master/doc/pics/homepage.png",
-      ),
+      new URL("https://raw.githubusercontent.com/AlexFangSW/**"),
     ],
   },
 };
 
 export default nextConfig;
+

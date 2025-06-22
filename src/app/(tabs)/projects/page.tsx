@@ -6,7 +6,7 @@ function DummyProject() {
   return (
     <ProjectCard
       title="Dummy"
-      path="/projects/dummy-project"
+      path="/projects/typephoon"
       summary="This is the summary for thei project, its just a dummy project card with no meaning..."
       image="/tree.png"
       tags={[

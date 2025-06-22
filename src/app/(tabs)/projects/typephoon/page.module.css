@@ -13,3 +13,7 @@
 .warning {
   color: var(--red);
 }
+
+.video {
+  border-width: 0px;
+}
