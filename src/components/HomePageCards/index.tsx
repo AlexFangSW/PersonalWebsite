@@ -12,8 +12,7 @@ type Params = {
 export default function HomePageCards(params: Params) {
   return (
     <Link href={params.link} className={`center-container ${styles.container}`}>
-      <p className={`${silkscreen.className}`}>{params.title}</p>
-      <hr className={styles.hr} />
+      <span className={`${silkscreen.className}`}>{params.title}</span>
       <div className={`center-container ${styles.img_container}`}>
         <Image
           className={styles.image}
