@@ -10,14 +10,14 @@ function DummyProject() {
       summary="This is the summary for thei project, its just a dummy project card with no meaning..."
       image="/tree.png"
       tags={[
-        "dummy",
-        "dummy",
-        "dummy",
-        "dummy",
-        "dummy",
-        "dummy",
-        "dummy",
-        "dummy",
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "Redis",
+        "RabbitMQ",
+        "Typescript",
+        "NextJS",
       ]}
     />
   );
