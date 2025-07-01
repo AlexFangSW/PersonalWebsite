@@ -16,10 +16,7 @@ function NavIcon({ img, href }: { img: string; href: string }) {
 
 function getPrev() {
   const pathname = usePathname();
-  let pathItems = pathname.split("/");
-  if (pathItems.length === 1) {
-    return "/";
-  }
+  let pathItems = pathname.split("/").splice(1);
   const lastLocation = `/${pathItems.slice(0, -1).join("/")}`;
   return lastLocation;
 }
