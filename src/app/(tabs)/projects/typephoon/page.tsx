@@ -1,6 +1,5 @@
 import TabHeader from "@/components/TabHeader";
 import styles from "./page.module.css";
-import Link from "next/link";
 
 function Links() {
   return (
@@ -169,6 +168,39 @@ function TechStack() {
   );
 }
 
+function Architecture() {
+  return (
+    <>
+      <h2>Architecture</h2>
+      <img
+        src="https://raw.githubusercontent.com/AlexFangSW/Typephoon_api/refs/heads/master/doc/pics/typing_game_design-Architecture.drawio.svg"
+        alt="Image"
+        width={"100%"}
+        style={{ objectFit: "contain" }}
+      />
+    </>
+  );
+}
+
+function Details() {
+  return (
+    <>
+      <h2>Details</h2>
+      <p>
+        {" "}
+        For more implementation details, please refer to{" "}
+        <a
+          href="https://github.com/AlexFangSW/Typephoon_api/blob/master/doc/build.md#architecture"
+          target="_blank"
+        >
+          <u>Build.md</u>
+        </a>{" "}
+        in the backend GitHub repository.
+      </p>
+    </>
+  );
+}
+
 export default function Page() {
   return (
     <div className={`center-container tab-content-container`}>
@@ -182,18 +214,8 @@ export default function Page() {
         <Features />
         <Previews />
         <TechStack />
-        <h2>Details</h2>
-        <p>
-          {" "}
-          For more implementation details, please refer to{" "}
-          <a
-            href="https://github.com/AlexFangSW/Typephoon_api/blob/master/doc/build.md"
-            target="_blank"
-          >
-            <u>Build.md</u>
-          </a>{" "}
-          in the backend GitHub repository.
-        </p>
+        <Architecture />
+        <Details />
       </main>
     </div>
   );
