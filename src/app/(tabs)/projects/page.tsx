@@ -51,9 +51,27 @@ export default function Page() {
           image="/coding-notes.png"
           tags={["Go", "netHttp", "PostgreSQL", "Javascript", "NextJS"]}
         />
+        <ProjectCard
+          title="Home Lab"
+          path="/projects/home-lab"
+          summary="Local infrastructure that hosts my personal projects"
+          image="/tree.png"
+          tags={[
+            "K3s",
+            "Cilium",
+            "Rancher",
+            "OpenVPN",
+            "Monitoring",
+            "Gateway",
+          ]}
         />
-        <DummyProject />
-        <DummyProject />
+        <ProjectCard
+          title="Personal Website"
+          path="/projects/personal-website"
+          summary="My personal website ( You're looking at it ~ ) "
+          image="/tree.png"
+          tags={["Typescript", "NextJS"]}
+        />
       </main>
     </div>
   );
