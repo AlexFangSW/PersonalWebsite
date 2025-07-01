@@ -44,9 +44,13 @@ export default function Page() {
             "NextJS",
           ]}
         />
-        <DummyProject />
-        <DummyProject />
-        <DummyProject />
+        <ProjectCard
+          title="Personal Blog"
+          path="/projects/personal-blog"
+          summary="A blog website with backend written using Go standard library"
+          image="/personal-blog.png"
+          tags={["Go", "netHttp", "PostgreSQL", "Typescript", "NextJS"]}
+        />
         <DummyProject />
         <DummyProject />
       </main>

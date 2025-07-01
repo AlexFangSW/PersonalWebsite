@@ -18,6 +18,7 @@ export const TAGS: { [key: string]: JSX.Element } = {
   Python: <Tag text="Python" colorHex={Colors.yellow} />,
   Typescript: <Tag text="Typescript" colorHex={Colors.blue} />,
   Go: <Tag text="Go" colorHex={Colors.blue} />,
+  netHttp: <Tag text="net/http" colorHex={Colors.blue} />,
   K8s: <Tag text="K8s" colorHex={Colors.blue} />,
   FastAPI: <Tag text="FastAPI" colorHex={Colors.green} />,
   RabbitMQ: <Tag text="RabbitMQ" colorHex={Colors.red} />,
