@@ -3,17 +3,26 @@ import { JSX } from "react";
 
 export const CONTENT_WIDTH: number = 780;
 
+enum Colors {
+  yellow = "#FFF287",
+  red = "#FE5D26",
+  blue = "#00CAFF",
+  green = "#71C0BB",
+  black = "#000000",
+  white = "#EAE4D5",
+}
+
 // Predefined Tag elements
 export const TAGS: { [key: string]: JSX.Element } = {
   dummy: <Tag text="dummy" colorHex="#0ABAB5" />,
-  Python: <Tag text="Python" colorHex="#FADA7A" />,
-  Typescript: <Tag text="Typescript" colorHex="#3674B5" />,
-  Go: <Tag text="Go" colorHex="#8CCDEB" />,
-  K8s: <Tag text="K8s" colorHex="#8CCDEB" />,
-  FastAPI: <Tag text="FastAPI" colorHex="#03A6A1" />,
-  RabbitMQ: <Tag text="RabbitMQ" colorHex="#C83F12" />,
-  SQLAlchamy: <Tag text="SQLAlchamy" colorHex="#C83F12" />,
-  PostgreSQL: <Tag text="PostgreSQL" colorHex="#4682A9" />,
-  Redis: <Tag text="Redis" colorHex="#C83F12" />,
-  NextJS: <Tag text="NextJS" colorHex="#7F8CAA" />,
+  Python: <Tag text="Python" colorHex={Colors.yellow} />,
+  Typescript: <Tag text="Typescript" colorHex={Colors.blue} />,
+  Go: <Tag text="Go" colorHex={Colors.blue} />,
+  K8s: <Tag text="K8s" colorHex={Colors.blue} />,
+  FastAPI: <Tag text="FastAPI" colorHex={Colors.green} />,
+  RabbitMQ: <Tag text="RabbitMQ" colorHex={Colors.red} />,
+  SQLAlchamy: <Tag text="SQLAlchamy" colorHex={Colors.red} />,
+  PostgreSQL: <Tag text="PostgreSQL" colorHex={Colors.blue} />,
+  Redis: <Tag text="Redis" colorHex={Colors.red} />,
+  NextJS: <Tag text="NextJS" colorHex={Colors.white} />,
 };
