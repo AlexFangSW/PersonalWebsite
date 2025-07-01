@@ -45,11 +45,12 @@ export default function Page() {
           ]}
         />
         <ProjectCard
-          title="Personal Blog"
-          path="/projects/personal-blog"
+          title="Coding Notes"
+          path="/projects/coding-notes"
           summary="A blog website with backend written using Go standard library"
-          image="/personal-blog.png"
-          tags={["Go", "netHttp", "PostgreSQL", "Typescript", "NextJS"]}
+          image="/coding-notes.png"
+          tags={["Go", "netHttp", "PostgreSQL", "Javascript", "NextJS"]}
+        />
         />
         <DummyProject />
         <DummyProject />
