@@ -28,6 +28,22 @@ export default function Page() {
     <div className={`center-container tab-content-container`}>
       <TabHeader title="PROJECTS" image="/tree.png" />
       <main className={`${styles.content} center-container inner-content`}>
+        <ProjectCard
+          title="Typephoon"
+          path="/projects/typephoon"
+          summary="A real-time multiplayer typing game with minimalistic design inspired by monkeytype"
+          image="https://raw.githubusercontent.com/AlexFangSW/Typephoon/refs/heads/master/doc/pics/homepage.png"
+          tags={[
+            "Python",
+            "FastAPI",
+            "SQLAlchemy",
+            "PostgreSQL",
+            "Redis",
+            "RabbitMQ",
+            "Typescript",
+            "NextJS",
+          ]}
+        />
         <DummyProject />
         <DummyProject />
         <DummyProject />
