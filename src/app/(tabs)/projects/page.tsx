@@ -32,7 +32,7 @@ export default function Page() {
           title="Typephoon"
           path="/projects/typephoon"
           summary="A real-time multiplayer typing game with minimalistic design inspired by monkeytype"
-          image="https://raw.githubusercontent.com/AlexFangSW/Typephoon/refs/heads/master/doc/pics/homepage.png"
+          image="/typephoon.png"
           tags={[
             "Python",
             "FastAPI",
@@ -52,10 +52,10 @@ export default function Page() {
           tags={["Go", "netHttp", "PostgreSQL", "Javascript", "NextJS"]}
         />
         <ProjectCard
-          title="Home Lab"
-          path="/projects/home-lab"
+          title="Homelab"
+          path="/projects/homelab"
           summary="Local infrastructure that hosts my personal projects"
-          image="/tree.png"
+          image="/homelab.png"
           tags={[
             "K3s",
             "Cilium",

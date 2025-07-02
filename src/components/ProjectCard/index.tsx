@@ -25,11 +25,10 @@ function TagList(params: { tags: Array<string> }) {
 function ProjectImg(params: { source: string }) {
   return (
     <div className={`center-container ${styles.img_container}`}>
-      <Image
+      <img
         src={params.source}
         alt="Image"
-        fill
-        style={{ objectFit: "cover" }}
+        style={{ objectFit: "contain", maxWidth: "100%", height: "auto" }}
       />
     </div>
   );

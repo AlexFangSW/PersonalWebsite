@@ -54,7 +54,7 @@
   /* filter: brightness(50%); */
   min-width: 100%;
   overflow: hidden;
-  min-height: 100px;
+  height: 100px;
   box-sizing: border-box;
   position: relative;
 }
