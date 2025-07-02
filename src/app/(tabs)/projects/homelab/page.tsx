@@ -160,38 +160,6 @@ function TechStack() {
             </li>
           </ul>
         </li>
-        <li>
-          [🚧] Network traffic:
-          <ul>
-            <li>
-              L3/L4: <strong>Cilium Hubble</strong>
-            </li>
-            <li>
-              L7: <strong>Istio Telemetry and Zipkin</strong>
-            </li>
-          </ul>
-        </li>
-        <li>
-          [🚧] Logs:
-          <ul>
-            <li>
-              <strong>Loki</strong> or <strong>Elasticsearch</strong>: for
-              storing logs
-            </li>
-            <li>
-              <strong>Gafana agent</strong> or{" "}
-              <strong>Filebeat + Logstash</strong>: collect logs
-            </li>
-          </ul>
-        </li>
-        <li>
-          [🚧] Alerting:
-          <ul>
-            <li>
-              <strong>Alertmanager</strong>
-            </li>
-          </ul>
-        </li>
       </ul>
     </>
   );
