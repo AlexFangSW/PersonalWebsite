@@ -32,41 +32,37 @@ function TechStack() {
   return (
     <>
       <h2>Tech stack</h2>
-      <h3>Hardware, OS</h3>
+      <h3>Hardware</h3>
       <ul>
         <li>
-          <strong>Hardware</strong>
+          Server
           <ul>
+            <li>CPU: Intel(R) Core(TM) i5-14500</li>
+            <li>RAM: 64G</li>
+            <li>Storage: 1T M.2 NVMe</li>
+          </ul>
+        </li>
+        <li>
+          VPN server:
+          <blockquote>
+            <p>My old PC, currently just runs the VPN server</p>
+          </blockquote>
+          <ul>
+            <li>CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz</li>
+            <li>RAM: 8G</li>
             <li>
-              Server
+              Storage:
               <ul>
-                <li>CPU: Intel(R) Core(TM) i5-14500</li>
-                <li>RAM: 64G</li>
-                <li>Storage: 1T M.2 NVMe</li>
-              </ul>
-            </li>
-            <li>
-              VPN server:
-              <blockquote>
-                <p>My old PC, currently just runs the VPN server</p>
-              </blockquote>
-              <ul>
-                <li>CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz</li>
-                <li>RAM: 8G</li>
-                <li>
-                  Storage:
-                  <ul>
-                    <li>128G SSD</li>
-                    <li>1T HDD</li>
-                  </ul>
-                </li>
+                <li>128G SSD</li>
+                <li>1T HDD</li>
               </ul>
             </li>
           </ul>
         </li>
-        <li>
-          <strong>OS</strong>: Ubuntu 24.04
-        </li>
+      </ul>
+      <h3>OS</h3>
+      <ul>
+        <li>Ubuntu 24.04</li>
       </ul>
       <h3>DNS</h3>
       <ul>

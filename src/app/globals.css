@@ -1,6 +1,6 @@
 :root {
   /* Colors  */
-  --default-color: #FEFFCF;
+  --default-color: hsl(61, 100%, 91%);
   --red: #D8647EFF;
   background-color: #1A1316;
   color: var(--default-color);
@@ -50,4 +50,12 @@
 a {
   text-decoration: none;
   color: var(--default-color);
+}
+
+blockquote {
+  box-sizing: border-box;
+  border-left: solid;
+  border-width: 0.5rem;
+  border-color: var(--default-color);
+  padding-left: 1rem;
 }
