@@ -100,7 +100,7 @@ function Details() {
 export default function Page() {
   return (
     <div className={`center-container tab-content-container`}>
-      <TabHeader title="Homelab" image="/homelab.png" />
+      <TabHeader title="Homelab" image="/tree.png" />
       <main className={`${styles.content} inner-content`}>
         <Links />
         <About />

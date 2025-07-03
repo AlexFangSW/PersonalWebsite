@@ -4,7 +4,7 @@
   --red: #D8647EFF;
   background-color: #1A1316;
   color: var(--default-color);
-
+  font-size: 20px;
 
   /* Layout */
   --content-width: 780px;
@@ -39,6 +39,7 @@
 
 /* Used for root element in (tabs) route group */
 .tab-content-container {
+  width: 100%;
   row-gap: 1rem;
 }
 

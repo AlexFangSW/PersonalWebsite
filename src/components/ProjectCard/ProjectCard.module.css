@@ -1,6 +1,6 @@
 .container {
   box-sizing: border-box;
-  max-width: calc(calc(var(--content-width) / 2) - 12px);
+  max-width: calc(calc(var(--content-width) / 2) - 15px);
   color: var(--default-color);
   border-style: solid;
   border-color: var(--default-color);
@@ -8,7 +8,7 @@
   border-radius: 5px;
   row-gap: 0.5rem;
   padding-bottom: 0.5rem;
-  height: 21.5rem;
+  height: 25rem;
   justify-content: space-between;
 }
 
