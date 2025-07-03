@@ -68,7 +68,7 @@ export default function Page() {
         <ProjectCard
           title="Personal Website"
           path="/projects/personal-website"
-          summary="My personal website ( You're looking at it ~ ) "
+          summary="My personal webiste ( You're looking at it !! )"
           image="/tree.png"
           tags={["Typescript", "NextJS"]}
         />
