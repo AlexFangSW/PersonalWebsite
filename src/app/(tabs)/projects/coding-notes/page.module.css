@@ -17,3 +17,13 @@
 .video {
   border-width: 0px;
 }
+
+.code {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #000000;
+  overflow-x: scroll;
+  scrollbar-color: var(--default-color) transparent;
+  scrollbar-width: thin;
+}

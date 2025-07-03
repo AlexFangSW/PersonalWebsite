@@ -35,17 +35,17 @@ function About() {
         shown at the end of the url for extra info. ( ID is the primary
         indicator )
       </p>
-      Ex:
-      <ul>
-        <li>
-          <code>{"https://<domain>/blogs/<id>/<slug>"}</code>
-        </li>
-        <li>
-          <code>
-            {"https://notes.alexfangsw.com/blogs/1/a-dummy-blog-post"}
-          </code>
-        </li>
-      </ul>
+      <pre>
+        Example:
+        <code className={`${styles.code}`}>
+          {`
+ https://<domain>/blogs/<id>/<slug>
+
+ https://notes.alexfangsw.com/blogs/1/a-dummy-blog-post 
+
+`}
+        </code>
+      </pre>
     </>
   );
 }

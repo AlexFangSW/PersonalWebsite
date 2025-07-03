@@ -35,7 +35,22 @@
     padding-bottom: 2rem;
     padding-inline: 1rem;
   }
+
+  :root {
+    /* Colors  */
+    --default-color: hsl(61, 100%, 91%);
+    --red: #D8647EFF;
+    background-color: #1A1316;
+    color: var(--default-color);
+    font-size: 16px;
+
+    /* Layout */
+    --content-width: 780px;
+    --border-width: 2px;
+    --inner-max-width: 98%;
+  }
 }
+
 
 /* Used for root element in (tabs) route group */
 .tab-content-container {
