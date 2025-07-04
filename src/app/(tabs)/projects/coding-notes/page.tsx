@@ -102,7 +102,7 @@ function TechStack() {
           <strong>Drone CI</strong>
         </li>
       </ul>
-      <h3>Miscellaneous</h3>
+      <h3>Misc</h3>
       <ul>
         <li>
           <strong>Docker</strong>

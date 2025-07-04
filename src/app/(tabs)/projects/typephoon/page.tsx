@@ -146,7 +146,7 @@ function TechStack() {
           <strong>Drone CI</strong>: helm packaging
         </li>
       </ul>
-      <h3>Miscellaneous</h3>
+      <h3>Misc</h3>
       <ul>
         <li>
           <strong> WebSockets</strong>
