@@ -3,7 +3,6 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import Image from "next/image";
 import WordWithLine from "@/components/WordWithLine";
-import { type } from "os";
 
 function SectionTitle({ title }: { title: string }) {
   return (
@@ -161,6 +160,7 @@ function ToolIcons({ toolInfos }: { toolInfos: ToolInfo[] }) {
         className={`${styles.icon} center-container`}
         key={index}
         href={info.href}
+        target="_blank"
       >
         <Image
           src={`/tool_icons/${info.name}.${fileType}`}
@@ -182,7 +182,7 @@ function otherTools(): ToolInfo[] {
   return [
     {
       name: "linux",
-      href: "",
+      href: "https://www.kernel.org/",
     },
     {
       name: "ubuntu",
@@ -190,76 +190,76 @@ function otherTools(): ToolInfo[] {
     },
     {
       name: "git",
-      href: "",
+      href: "https://git-scm.com/",
     },
     {
       name: "docker",
-      href: "",
+      href: "https://www.docker.com/",
     },
     {
       name: "kubernetes",
-      href: "",
+      href: "https://kubernetes.io/",
     },
     {
       name: "istio",
-      href: "",
+      href: "https://istio.io/",
     },
     {
       name: "helm",
-      href: "",
+      href: "https://helm.sh/",
     },
     {
       name: "droneci",
-      href: "",
+      href: "https://www.drone.io/",
     },
     {
       name: "k3s",
-      href: "",
+      href: "https://k3s.io/",
     },
     {
       name: "rancher",
-      href: "",
+      href: "https://www.rancher.com/",
     },
     {
       name: "prometheus",
-      href: "",
+      href: "https://prometheus.io/",
     },
     {
       name: "grafana",
-      href: "",
+      href: "https://grafana.com/",
     },
     {
       name: "envoyproxy",
-      href: "",
+      href: "https://www.envoyproxy.io/",
     },
     {
       name: "coredns",
-      href: "",
+      href: "https://coredns.io/",
     },
     {
       name: "goharbor",
-      href: "",
+      href: "https://goharbor.io/",
       type: "png",
     },
     {
       name: "kibana",
-      href: "",
+      href: "https://www.elastic.co/kibana",
     },
     {
       name: "logstash",
-      href: "",
+      href: "https://www.elastic.co/logstash",
       width: 40,
       height: 40,
     },
     {
       name: "filebeat",
-      href: "",
+      href: "https://www.elastic.co/beats/filebeat",
       width: 40,
       height: 40,
     },
     {
       name: "lua",
-      href: "",
+      href: "https://www.lua.org/",
     },
   ];
 }
@@ -272,7 +272,7 @@ function frontendTools(): ToolInfo[] {
     },
     {
       name: "typescript",
-      href: "",
+      href: "https://www.typescriptlang.org/",
     },
     {
       name: "html",
@@ -284,15 +284,15 @@ function frontendTools(): ToolInfo[] {
     },
     {
       name: "sass",
-      href: "",
+      href: "https://sass-lang.com/",
     },
     {
       name: "react",
-      href: "",
+      href: "https://react.dev/",
     },
     {
       name: "nextjs",
-      href: "",
+      href: "https://nextjs.org/",
     },
   ];
 }
@@ -301,43 +301,39 @@ function backendTools(): ToolInfo[] {
   return [
     {
       name: "python",
-      href: "",
+      href: "https://www.python.org/",
     },
     {
       name: "golang",
-      href: "",
+      href: "https://go.dev/",
     },
     {
       name: "pytest",
-      href: "",
+      href: "https://docs.pytest.org/en/stable/",
     },
     {
       name: "fastapi",
-      href: "",
+      href: "https://fastapi.tiangolo.com/",
     },
     {
       name: "postgresql",
-      href: "",
+      href: "https://www.postgresql.org/",
     },
     {
       name: "redis",
-      href: "",
+      href: "https://redis.io/",
     },
     {
       name: "sqlite",
-      href: "",
+      href: "https://sqlite.org/",
     },
     {
       name: "elasticsearch",
-      href: "",
+      href: "https://www.elastic.co/elasticsearch",
     },
     {
       name: "rabbitmq",
-      href: "",
-    },
-    {
-      name: "pytorch",
-      href: "",
+      href: "https://www.rabbitmq.com/",
     },
   ];
 }
