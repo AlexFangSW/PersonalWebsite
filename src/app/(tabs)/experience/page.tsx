@@ -3,24 +3,12 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import Image from "next/image";
 import WordWithLine from "@/components/WordWithLine";
+import { type } from "os";
 
 function SectionTitle({ title }: { title: string }) {
   return (
     <div className={`center-container ${styles.section_title}`}>
       <h2>{title}</h2>
-    </div>
-  );
-}
-
-function Awards() {
-  return (
-    <div className={`center-container inner-content ${styles.title_gap}`}>
-      <SectionTitle title="AWARDS" />
-      <ul>
-        <li>AAA</li>
-        <li>AAAAAAAAA</li>
-        <li>AAAAAAAAAAAAAAA</li>
-      </ul>
     </div>
   );
 }
@@ -142,7 +130,7 @@ function DummyIcons() {
     list.push(
       <Link key={`icon-${index}`} href="https://skillicons.dev">
         <Image
-          src="/tool_icons/NeoVim-Dark.svg"
+          src="/tool_icons/neovim.svg"
           alt="Neovim"
           width={50}
           height={50}
@@ -155,16 +143,215 @@ function DummyIcons() {
   );
 }
 
+type ToolInfo = {
+  name: string;
+  href: string;
+  type?: string;
+  width?: number;
+  height?: number;
+};
+
+function ToolIcons({ toolInfos }: { toolInfos: ToolInfo[] }) {
+  const toolIconList = toolInfos.map((info, index) => {
+    const fileType = info.type ? info.type : "svg";
+    const width = info.width ? info.width : 50;
+    const height = info.height ? info.height : 50;
+    return (
+      <Link
+        className={`${styles.icon} center-container`}
+        key={index}
+        href={info.href}
+      >
+        <Image
+          src={`/tool_icons/${info.name}.${fileType}`}
+          alt={info.name}
+          width={width}
+          height={height}
+        />
+      </Link>
+    );
+  });
+  return (
+    <div className={`${styles.icon_container} center-container`}>
+      {toolIconList}
+    </div>
+  );
+}
+
+function otherTools(): ToolInfo[] {
+  return [
+    {
+      name: "linux",
+      href: "",
+    },
+    {
+      name: "ubuntu",
+      href: "https://ubuntu.com/",
+    },
+    {
+      name: "git",
+      href: "",
+    },
+    {
+      name: "docker",
+      href: "",
+    },
+    {
+      name: "kubernetes",
+      href: "",
+    },
+    {
+      name: "istio",
+      href: "",
+    },
+    {
+      name: "helm",
+      href: "",
+    },
+    {
+      name: "droneci",
+      href: "",
+    },
+    {
+      name: "k3s",
+      href: "",
+    },
+    {
+      name: "rancher",
+      href: "",
+    },
+    {
+      name: "prometheus",
+      href: "",
+    },
+    {
+      name: "grafana",
+      href: "",
+    },
+    {
+      name: "envoyproxy",
+      href: "",
+    },
+    {
+      name: "coredns",
+      href: "",
+    },
+    {
+      name: "goharbor",
+      href: "",
+      type: "png",
+    },
+    {
+      name: "kibana",
+      href: "",
+    },
+    {
+      name: "logstash",
+      href: "",
+      width: 40,
+      height: 40,
+    },
+    {
+      name: "filebeat",
+      href: "",
+      width: 40,
+      height: 40,
+    },
+    {
+      name: "lua",
+      href: "",
+    },
+  ];
+}
+
+function frontendTools(): ToolInfo[] {
+  return [
+    {
+      name: "javascript",
+      href: "",
+    },
+    {
+      name: "typescript",
+      href: "",
+    },
+    {
+      name: "html",
+      href: "",
+    },
+    {
+      name: "css",
+      href: "",
+    },
+    {
+      name: "sass",
+      href: "",
+    },
+    {
+      name: "react",
+      href: "",
+    },
+    {
+      name: "nextjs",
+      href: "",
+    },
+  ];
+}
+
+function backendTools(): ToolInfo[] {
+  return [
+    {
+      name: "python",
+      href: "",
+    },
+    {
+      name: "golang",
+      href: "",
+    },
+    {
+      name: "pytest",
+      href: "",
+    },
+    {
+      name: "fastapi",
+      href: "",
+    },
+    {
+      name: "postgresql",
+      href: "",
+    },
+    {
+      name: "redis",
+      href: "",
+    },
+    {
+      name: "sqlite",
+      href: "",
+    },
+    {
+      name: "elasticsearch",
+      href: "",
+    },
+    {
+      name: "rabbitmq",
+      href: "",
+    },
+    {
+      name: "pytorch",
+      href: "",
+    },
+  ];
+}
+
 function Tools() {
   return (
     <div className={`center-container inner-content ${styles.title_gap}`}>
       <SectionTitle title="TOOLS" />
       <h3>Backend</h3>
-      <DummyIcons />
+      <ToolIcons toolInfos={backendTools()} />
       <h3>Frontend</h3>
-      <DummyIcons />
+      <ToolIcons toolInfos={frontendTools()} />
       <h3>Others</h3>
-      <DummyIcons />
+      <ToolIcons toolInfos={otherTools()} />
     </div>
   );
 }
@@ -177,7 +364,6 @@ export default function Page() {
         <Tools />
         <Jobs />
         <Education />
-        <Awards />
       </main>
     </div>
   );
