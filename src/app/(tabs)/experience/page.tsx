@@ -25,6 +25,20 @@ function Awards() {
   );
 }
 
+function Education() {
+  return (
+    <div className={`center-container inner-content ${styles.title_gap}`}>
+      <SectionTitle title="Education" />
+      <ul>
+        <li>
+          <b>Bachelor's degree</b> at <b>NKUST</b>, Department of Computer
+          Science & Information Engineering
+        </li>
+      </ul>
+    </div>
+  );
+}
+
 function JobInfo({
   time,
   company,
@@ -62,26 +76,59 @@ function Jobs() {
     <div className={`center-container inner-content ${styles.title_gap}`}>
       <SectionTitle title="JOBS" />
       <div className={`${styles.full_width} ${styles.job_info_list}`}>
-        <JobInfo time="9999-11-11~9999-11-11" company="GoBig" title="Hmmm...">
+        <JobInfo time="2022-07 ~ Now" company="BigGo" title="Software Enginer">
           <ul>
-            <li>aaabbbccc</li>
+            <li>
+              Develop <b>backend microservices</b>
+            </li>
+            <li>
+              Develop internal <b>python library</b>
+            </li>
+            <li>
+              Develop <b>MCP servers</b> and{" "}
+              <b>automated MCP server creation pipeline</b>
+            </li>
+            <li>Develop crawler maintenance tools</li>
+            <li>
+              Maintain <b>baremetal K8s cluster</b> (RKE2, K3s) and{" "}
+              <b>CI/CD pipeline</b>
+            </li>
+            <li>Publicly accessible projects: </li>
             <ul>
-              <li>aaabbbccc</li>
-              <li>aaabbbccc</li>
+              <li>
+                <a href="https://github.com/OpenAgentPlatform/Dive">
+                  <u>Dive</u>
+                </a>
+              </li>
+              <li>
+                <a href="https://apps.shopify.com/birse-visual-search">
+                  <u>BIRSE: Visual Search</u>
+                </a>
+              </li>
+              <li>
+                <a href="https://biggo.com.tw/agent">
+                  {" "}
+                  <u>BigGo AI Shopping Assistant</u>
+                </a>
+              </li>
+              <li>
+                <a href="https://oaphub.ai/mcp">
+                  {" "}
+                  <u>Open Agent Platform</u>
+                </a>
+              </li>
             </ul>
-            <li>aaabbbccc</li>
-            <li>aaabbbccc</li>
           </ul>
         </JobInfo>
-        <JobInfo time="9999-11-11~9999-11-11" company="GoBig" title="Hmmm...">
+        <JobInfo
+          time="2022-03 ~ 2022-07"
+          company="BigGo"
+          title="Software Enginer Intern"
+        >
           <ul>
-            <li>aaabbbccc</li>
-            <ul>
-              <li>aaabbbccc</li>
-              <li>aaabbbccc</li>
-            </ul>
-            <li>aaabbbccc</li>
-            <li>aaabbbccc</li>
+            <li>
+              Develop <b>web crawlers</b> and <b>APIs</b> crawler services
+            </li>
           </ul>
         </JobInfo>
       </div>
@@ -129,6 +176,7 @@ export default function Page() {
       <main className={`center-container inner-content ${styles.title_gap}`}>
         <Tools />
         <Jobs />
+        <Education />
         <Awards />
       </main>
     </div>
