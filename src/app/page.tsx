@@ -18,7 +18,11 @@ export default function Home() {
       <main
         className={`center-container inner-content ${styles.cards_container}`}
       >
-        <HomePageCards title="ABOUT" image="/tree.png" link="/about" />
+        <HomePageCards
+          title="ABOUT"
+          image="/quill-pixilart.png"
+          link="/about"
+        />
         <HomePageCards title="PROJECTS" image="/tree.png" link="/projects" />
         <HomePageCards
           title="EXPERIENCE"

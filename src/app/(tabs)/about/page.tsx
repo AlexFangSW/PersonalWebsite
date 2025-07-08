@@ -64,7 +64,7 @@ function PictureOfMe() {
 export default function Page() {
   return (
     <div className={`center-container tab-content-container`}>
-      <TabHeader title="ABOUT" image="/tree.png" />
+      <TabHeader title="ABOUT" image="/quill-pixilart.png" />
       <main className={`center-container inner-content ${styles.main}`}>
         <Contacts />
         <AboutMe />
