@@ -26,7 +26,7 @@ function DummyProject() {
 export default function Page() {
   return (
     <div className={`center-container tab-content-container`}>
-      <TabHeader title="PROJECTS" image="/tree.png" />
+      <TabHeader title="PROJECTS" image="/scroll-pixilart.png" />
       <main className={`${styles.content} center-container inner-content`}>
         <ProjectCard
           title="Typephoon"

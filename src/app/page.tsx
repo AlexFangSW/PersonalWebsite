@@ -23,7 +23,11 @@ export default function Home() {
           image="/quill-pixilart.png"
           link="/about"
         />
-        <HomePageCards title="PROJECTS" image="/tree.png" link="/projects" />
+        <HomePageCards
+          title="PROJECTS"
+          image="/scroll-pixilart.png"
+          link="/projects"
+        />
         <HomePageCards
           title="EXPERIENCE"
           image="/tree.png"
