@@ -69,17 +69,20 @@ function Jobs() {
               Develop <b>backend microservices</b>
             </li>
             <li>
-              Develop internal <b>python library</b>
+              Develop <b>AI agents</b> with <b>LangChain</b> / <b>LangGraph</b>
             </li>
             <li>
               Develop <b>MCP servers</b> and{" "}
               <b>automated MCP server creation pipeline</b>
             </li>
-            <li>Develop crawler maintenance tools</li>
+            <li>
+              Develop internal <b>python library</b>
+            </li>
             <li>
               Maintain <b>baremetal K8s cluster</b> (RKE2, K3s) and{" "}
               <b>CI/CD pipeline</b>
             </li>
+            <li>Develop crawler maintenance tools</li>
             <li>Publicly accessible projects: </li>
             <ul>
               <li>
@@ -334,6 +337,15 @@ function backendTools(): ToolInfo[] {
     {
       name: "rabbitmq",
       href: "https://www.rabbitmq.com/",
+    },
+    {
+      name: "langchain",
+      href: "https://www.langchain.com/",
+    },
+    {
+      name: "langgraph",
+      href: "https://www.langchain.com/langgraph",
+      type: "png",
     },
   ];
 }
