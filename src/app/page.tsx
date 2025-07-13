@@ -30,7 +30,7 @@ export default function Home() {
         />
         <HomePageCards
           title="EXPERIENCE"
-          image="/tree.png"
+          image="/anvil-pixilart.png"
           link="/experience"
         />
       </main>
