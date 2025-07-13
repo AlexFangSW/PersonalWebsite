@@ -32,7 +32,7 @@ export default function Page() {
           title="Typephoon"
           path="/projects/typephoon"
           summary="A real-time multiplayer typing game with minimalistic design inspired by monkeytype"
-          image="/typephoon.png"
+          image="https://raw.githubusercontent.com/AlexFangSW/Typephoon/refs/heads/master/doc/pics/homepage.png"
           tags={[
             "Python",
             "FastAPI",
@@ -69,7 +69,7 @@ export default function Page() {
           title="Personal Website"
           path="/projects/personal-website"
           summary="My personal webiste ( You're looking at it !! )"
-          image="/tree.png"
+          image="/quill-pixilart.png"
           tags={["Typescript", "NextJS"]}
         />
       </main>

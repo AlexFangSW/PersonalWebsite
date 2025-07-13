@@ -23,26 +23,24 @@ function AboutMe() {
   return (
     <>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Hi, my name is <b>Hao-Yun Fang</b>. I go by <strong>AlexFangSW</strong>{" "}
+        on most of my work related accounts (email, github ... etc). If you were
+        wondering, SW means study and work.
       </p>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        My day job revolves around backend development and managing our
+        company's bare metal kubernetes cluster.
+      </p>
+      <p>
+        I enjoy programing and is interested most things related to development,
+        from computer networks, developent enviroments, automation, backend to
+        frontend. I continue to learn and improve myself, I also have a simple
+        homelab to experiment and host my personal projects, this site itself is
+        hosted on my homelab as well.
+      </p>
+      <p>
+        Oh, and I also like drawing, the artworks used on this site are all
+        drawn by me :)
       </p>
     </>
   );
@@ -68,7 +66,6 @@ export default function Page() {
       <main className={`center-container inner-content ${styles.main}`}>
         <Contacts />
         <AboutMe />
-        <PictureOfMe />
       </main>
     </div>
   );

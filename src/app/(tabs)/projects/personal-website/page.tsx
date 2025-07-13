@@ -1,5 +1,6 @@
 import TabHeader from "@/components/TabHeader";
 import styles from "./page.module.css";
+import Image from "next/image";
 
 function Links() {
   return (
@@ -24,6 +25,37 @@ function About() {
     <>
       <h2>About</h2>
       <p>My personal webiste ( You're looking at it !! )</p>
+      <p>All three of this pixal art used on this site are drawn by me</p>
+      <div className={styles.img_container}>
+        <Image
+          src="/quill-pixilart.png"
+          alt="quill"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+        />
+      </div>
+      <div className={styles.img_container}>
+        <Image
+          src="/scroll-pixilart.png"
+          alt="scroll"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+        />
+      </div>
+      <div className={styles.img_container}>
+        <Image
+          src="/anvil-pixilart.png"
+          alt="anvil"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+        />
+      </div>
     </>
   );
 }
@@ -46,9 +78,6 @@ function TechStack() {
         <li>
           <strong>GitHub Actions</strong>: build docker image
         </li>
-        <li>
-          <strong>Drone CI</strong>: helm packaging
-        </li>
       </ul>
       <h3>Misc</h3>
       <ul>
@@ -57,9 +86,6 @@ function TechStack() {
         </li>
         <li>
           <strong>Kubernetes</strong>
-        </li>
-        <li>
-          <strong>Helm</strong>
         </li>
       </ul>
     </>
@@ -100,7 +126,7 @@ function Details() {
 export default function Page() {
   return (
     <div className={`center-container tab-content-container`}>
-      <TabHeader title="Homelab" image="/tree.png" />
+      <TabHeader title="Personal Website" image="/quill-pixilart.png" />
       <main className={`${styles.content} inner-content`}>
         <Links />
         <About />
