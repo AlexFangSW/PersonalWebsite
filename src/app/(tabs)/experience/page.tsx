@@ -117,7 +117,7 @@ function Jobs() {
         >
           <ul>
             <li>
-              Develop <b>web crawlers</b> and <b>APIs</b> crawler services
+              Develop <b>web crawlers</b> and <b>APIs</b> for crawler services
             </li>
           </ul>
         </JobInfo>

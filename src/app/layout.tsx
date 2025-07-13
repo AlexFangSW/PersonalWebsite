@@ -3,7 +3,7 @@ import "./globals.css";
 import { sourceCodePro } from "@/utils/fonts";
 
 export const metadata: Metadata = {
-  title: "AlexFangSW Personal Website",
+  title: "AlexFangSW",
   description: "Personal website of AlexFangSW",
 };
 
