@@ -32,11 +32,11 @@ function AboutMe() {
         company's bare metal kubernetes cluster.
       </p>
       <p>
-        I enjoy programing and is interested most things related to development,
-        from computer networks, developent enviroments, automation, backend to
-        frontend. I continue to learn and improve myself, I also have a simple
-        homelab to experiment and host my personal projects, this site itself is
-        hosted on my homelab as well.
+        I enjoy programing and is interested in most things related to
+        development, from computer networks, development environments,
+        automation, backend to frontend. I continue to learn and improve myself,
+        I also have a simple homelab to experiment and host my personal
+        projects, this site itself is hosted on my homelab as well.
       </p>
       <p>
         Oh, and I also like drawing, the artworks used on this site are all
