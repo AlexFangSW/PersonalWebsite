@@ -1,5 +1,6 @@
 import TabHeader from "@/components/TabHeader";
 import styles from "./page.module.css";
+import Image from "next/image";
 
 function Links() {
   return (
@@ -89,11 +90,13 @@ function Previews() {
       ></iframe>
       <h3>Player history / progress tracking</h3>
       <div className={`${styles.img_container}`}>
-        <img
+        <Image
           src="https://raw.githubusercontent.com/AlexFangSW/Typephoon/refs/heads/master/doc/pics/screencapture-typephoon-alexfangsw-profile.png"
           alt="Image"
-          width={"100%"}
-          style={{ objectFit: "contain" }}
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
         />
       </div>
     </>
