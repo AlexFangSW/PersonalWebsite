@@ -92,7 +92,7 @@ function Previews() {
       <div className={`${styles.img_container}`}>
         <Image
           src="https://raw.githubusercontent.com/AlexFangSW/Typephoon/refs/heads/master/doc/pics/screencapture-typephoon-alexfangsw-profile.png"
-          alt="Image"
+          alt="Player History / Progress Tracking"
           width={0}
           height={0}
           sizes="100vw"
@@ -175,11 +175,13 @@ function Architecture() {
   return (
     <>
       <h2>Architecture</h2>
-      <img
+      <Image
         src="https://raw.githubusercontent.com/AlexFangSW/Typephoon_api/refs/heads/master/doc/pics/typing_game_design-Architecture.drawio.svg"
-        alt="Image"
-        width={"100%"}
-        style={{ objectFit: "contain" }}
+        alt="Architecture"
+        width={0}
+        height={0}
+        sizes="100vw"
+        style={{ width: "100%", height: "auto" }}
       />
     </>
   );

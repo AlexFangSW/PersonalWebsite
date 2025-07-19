@@ -13,10 +13,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const gaID = process.env.GOOGLE_TAG_ID || "";
+  const gaID = process.env.GOOGLE_TAG_ID;
+  if (!gaID) {
+    console.warn("GOOGLE_TAG_ID not set");
+  }
   return (
     <html lang="en">
-      <GoogleAnalytics gaId={gaID} />
+      {gaID ? <GoogleAnalytics gaId={gaID} /> : ""}
       <body className={`${sourceCodePro.className}`}>{children}</body>
     </html>
   );

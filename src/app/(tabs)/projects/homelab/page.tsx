@@ -161,20 +161,6 @@ function TechStack() {
   );
 }
 
-function Architecture() {
-  return (
-    <>
-      <h2>Architecture</h2>
-      <img
-        src="https://raw.githubusercontent.com/AlexFangSW/Typephoon_api/refs/heads/master/doc/pics/typing_game_design-Architecture.drawio.svg"
-        alt="Image"
-        width={"100%"}
-        style={{ objectFit: "contain" }}
-      />
-    </>
-  );
-}
-
 function Details() {
   return (
     <>

@@ -92,37 +92,6 @@ function TechStack() {
   );
 }
 
-function Architecture() {
-  return (
-    <>
-      <h2>Architecture</h2>
-      <img
-        src="https://raw.githubusercontent.com/AlexFangSW/Typephoon_api/refs/heads/master/doc/pics/typing_game_design-Architecture.drawio.svg"
-        alt="Image"
-        width={"100%"}
-        style={{ objectFit: "contain" }}
-      />
-    </>
-  );
-}
-
-function Details() {
-  return (
-    <>
-      <h2>Details</h2>
-      <p>
-        For more details, please refer to the{" "}
-        <a
-          href="https://blog.alexfangsw.com/blogs/9/my-homelab-setup"
-          target="_blank"
-        >
-          <u>Blog Post</u>
-        </a>
-      </p>
-    </>
-  );
-}
-
 export default function Page() {
   return (
     <div className={`center-container tab-content-container`}>
