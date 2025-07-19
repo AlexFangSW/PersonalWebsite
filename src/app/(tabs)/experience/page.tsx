@@ -18,8 +18,11 @@ function Education() {
       <SectionTitle title="Education" />
       <ul>
         <li>
-          <b>Bachelor's degree</b> at <b>NKUST</b>, Department of Computer
-          Science & Information Engineering
+          <b>Bachelor's degree</b> at{" "}
+          <b>
+            NKUST ( National Kaohsiung University Of Science And Technology )
+          </b>
+          , Department of Computer Science & Information Engineering
         </li>
       </ul>
     </div>
@@ -101,12 +104,14 @@ function Jobs() {
                   <u>BigGo AI Shopping Assistant</u>
                 </a>
               </li>
+              {/*
               <li>
                 <a href="https://oaphub.ai/mcp">
                   {" "}
                   <u>Open Agent Platform</u>
                 </a>
               </li>
+              */}
             </ul>
           </ul>
         </JobInfo>
