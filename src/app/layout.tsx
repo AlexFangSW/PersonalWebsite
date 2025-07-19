@@ -13,10 +13,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const gaID = process.env.GOOGLE_TAG_ID || "";
   return (
     <html lang="en">
-      <GoogleAnalytics gaId={gaID} />
+      <GoogleAnalytics gaId={"G-5TL996L6VX"} />
       <body className={`${sourceCodePro.className}`}>{children}</body>
     </html>
   );
