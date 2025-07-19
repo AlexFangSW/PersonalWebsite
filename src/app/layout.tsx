@@ -15,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId={"G-5TL996L6VX"} />
+      <head>
+        <GoogleAnalytics gaId={"G-5TL996L6VX"} />
+      </head>
       <body className={`${sourceCodePro.className}`}>{children}</body>
     </html>
   );
