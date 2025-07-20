@@ -82,6 +82,9 @@ function Jobs() {
               Develop internal <b>python library</b>
             </li>
             <li>
+              Develop <b>image search</b> data pipeline
+            </li>
+            <li>
               Maintain <b>baremetal K8s cluster</b> (RKE2, K3s) and{" "}
               <b>CI/CD pipeline</b>
             </li>
