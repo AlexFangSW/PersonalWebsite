@@ -69,7 +69,10 @@ function Jobs() {
         <JobInfo time="2022-07 ~ Now" company="BigGo" title="Software Enginer">
           <ul>
             <li>
-              Develop <b>backend microservices</b>
+              Develop{" "}
+              <b>
+                backend services ( API / Message Queue Publisher, Consumer )
+              </b>
             </li>
             <li>
               Develop <b>AI agents</b> with <b>LangChain</b> / <b>LangGraph</b>
