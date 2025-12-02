@@ -69,23 +69,16 @@ function Jobs() {
         <JobInfo time="2022-07 ~ Now" company="BigGo" title="Software Enginer">
           <ul>
             <li>
-              Develop{" "}
-              <b>
-                backend services ( API / Message Queue Publisher, Consumer )
-              </b>
+              <b>API</b>
             </li>
             <li>
-              Develop <b>AI agents</b> with <b>LangChain</b> / <b>LangGraph</b>
+              <b>Data pipeline</b>
             </li>
             <li>
-              Develop <b>MCP servers</b> and{" "}
-              <b>automated MCP server creation pipeline</b>
+              <b>AI agents</b> and <b>MCP servers</b>
             </li>
             <li>
-              Develop internal <b>python library</b>
-            </li>
-            <li>
-              Develop <b>image search</b> data pipeline
+              <b>Python library</b>
             </li>
             <li>
               Maintain <b>baremetal K8s cluster</b> (RKE2, K3s) and{" "}
@@ -110,14 +103,6 @@ function Jobs() {
                   <u>BigGo AI Shopping Assistant</u>
                 </a>
               </li>
-              {/*
-              <li>
-                <a href="https://oaphub.ai/mcp">
-                  {" "}
-                  <u>Open Agent Platform</u>
-                </a>
-              </li>
-              */}
             </ul>
           </ul>
         </JobInfo>
