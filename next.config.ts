@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
       new URL("https://raw.githubusercontent.com/AlexFangSW/**"),
     ],
   },
+  experimental: {
+    serverActions: {
+      allowedOrigins: ["alexfangsw.com"],
+    },
+  },
 };
 
 export default nextConfig;
