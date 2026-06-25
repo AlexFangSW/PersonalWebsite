@@ -69,23 +69,23 @@ function Jobs() {
         <JobInfo time="2022-07 ~ Now" company="BigGo" title="Software Enginer">
           <ul>
             <li>
-              <b>API</b>
+              <b>Backend Development</b>
             </li>
             <li>
-              <b>Data pipeline</b>
+              <b>Data Pipeline</b>
             </li>
             <li>
-              <b>AI agents</b> and <b>MCP servers</b>
+              <b>AI Agents</b>
             </li>
             <li>
-              <b>Python library</b>
+              <b>Internal Python Library</b>
             </li>
             <li>
-              Maintain <b>baremetal K8s cluster</b> (RKE2, K3s) and{" "}
-              <b>CI/CD pipeline</b>
+              <b>Infrastructure</b>, <b>Automation</b>, <b>Monitoring</b>
             </li>
-            <li>Develop crawler maintenance tools</li>
-            <li>Publicly accessible projects: </li>
+            <li>
+              <b>User Facing Projects:</b>{" "}
+            </li>
             <ul>
               <li>
                 <a href="https://github.com/OpenAgentPlatform/Dive">
@@ -101,6 +101,12 @@ function Jobs() {
                 <a href="https://biggo.com.tw/agent">
                   {" "}
                   <u>BigGo AI Shopping Assistant</u>
+                </a>
+              </li>
+              <li>
+                <a href="https://finance.biggo.com.tw/agent">
+                  {" "}
+                  <u>BigGo Finance Agent</u>
                 </a>
               </li>
             </ul>
