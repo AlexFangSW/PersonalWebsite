@@ -68,35 +68,39 @@ function Jobs() {
       <div className={`${styles.full_width} ${styles.job_info_list}`}>
         <JobInfo time="2022-07 ~ Now" company="BigGo" title="Software Enginer">
           <ul>
-            <li>
+            <p>
+              Design, develop and maintain projects, clarify vague instructions
+              through communication.
+            </p>
+            <p>
               <b>Backend Development</b> with GO (Stdlib), Python (FastAPI),
               PostgreSQL, Elasticsearch and Redis
-            </li>
-            <li>
+            </p>
+            <p>
               <b>Data Pipeline</b> with RabbitMQ
-            </li>
-            <li>
+            </p>
+            <p>
               <b>AI Agents</b> with LangChain / LangGraph or AgentScope
-            </li>
-            <li>
+            </p>
+            <p>
               <b>Internal Python Library</b> for RPC communication based on
               ZeroMQ and RabbitMQ
-            </li>
-            <li>
+            </p>
+            <p>
               <b>Bear Metal Infrastructure</b> with K3s / RKE2 for cluster
               management, Istio for gateway, FRRouting and Keepalived for router
               high availability
-            </li>
-            <li>
+            </p>
+            <p>
               <b>CI/CD</b> with Drone CI, Gitea Actions, Helm, Docker
-            </li>
-            <li>
+            </p>
+            <p>
               <b>Monitoring And Observability</b> with Prometheus, Alertmanager,
               Grafana, OpenTelemetry and SigNoz
-            </li>
-            <li>
+            </p>
+            <p>
               <b>User Facing Projects:</b>{" "}
-            </li>
+            </p>
             <ul>
               <li>
                 <a href="https://github.com/OpenAgentPlatform/Dive">
@@ -129,9 +133,9 @@ function Jobs() {
           title="Software Enginer Intern"
         >
           <ul>
-            <li>
+            <p>
               Develop <b>web crawlers</b> and <b>APIs</b> for crawler services
-            </li>
+            </p>
           </ul>
         </JobInfo>
       </div>
