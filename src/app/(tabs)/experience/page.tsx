@@ -69,19 +69,30 @@ function Jobs() {
         <JobInfo time="2022-07 ~ Now" company="BigGo" title="Software Enginer">
           <ul>
             <li>
-              <b>Backend Development</b>
+              <b>Backend Development</b> with GO (Stdlib), Python (FastAPI),
+              PostgreSQL, Elasticsearch and Redis
             </li>
             <li>
-              <b>Data Pipeline</b>
+              <b>Data Pipeline</b> with RabbitMQ
             </li>
             <li>
-              <b>AI Agents</b>
+              <b>AI Agents</b> with LangChain / LangGraph or AgentScope
             </li>
             <li>
-              <b>Internal Python Library</b>
+              <b>Internal Python Library</b> for RPC communication based on
+              ZeroMQ and RabbitMQ
             </li>
             <li>
-              <b>Infrastructure</b>, <b>Automation</b>, <b>Monitoring</b>
+              <b>Bear Metal Infrastructure</b> with K3s / RKE2 for cluster
+              management, Istio for gateway, FRRouting and Keepalived for router
+              high availability
+            </li>
+            <li>
+              <b>CI/CD</b> with Drone CI, Gitea Actions, Helm, Docker
+            </li>
+            <li>
+              <b>Monitoring And Observability</b> with Prometheus, Alertmanager,
+              Grafana, OpenTelemetry and SigNoz
             </li>
             <li>
               <b>User Facing Projects:</b>{" "}
