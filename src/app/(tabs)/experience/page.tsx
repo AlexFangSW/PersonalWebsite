@@ -69,8 +69,9 @@ function Jobs() {
         <JobInfo time="2022-07 ~ Now" company="BigGo" title="Software Enginer">
           <ul>
             <p>
-              Design, develop and maintain projects, clarify vague instructions
-              through communication.
+              Design, develop and maintain projects. Clarify vague instructions
+              through communication. Manage a portion of our bare metal
+              infrastructure.
             </p>
             <p>
               <b>Backend Development</b> with GO (Stdlib), Python (FastAPI),
@@ -83,13 +84,14 @@ function Jobs() {
               <b>AI Agents</b> with LangChain / LangGraph or AgentScope
             </p>
             <p>
-              <b>Internal Python Library</b> for RPC communication based on
-              ZeroMQ and RabbitMQ
+              <b>Developed Internal Python Library</b> for RPC communication
+              based on ZeroMQ and RabbitMQ that powers our image search
+              processing pipeline for easy load balancing and scalability.
             </p>
             <p>
-              <b>Bear Metal Infrastructure</b> with K3s / RKE2 for cluster
-              management, Istio for gateway, FRRouting and Keepalived for router
-              high availability
+              <b>Maintain Bare Metal Infrastructure</b> with K3s / RKE2 for
+              cluster management, Istio for gateway, FRRouting and Keepalived
+              for router high availability
             </p>
             <p>
               <b>CI/CD</b> with Drone CI, Gitea Actions, Helm, Docker
